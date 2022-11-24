@@ -1,0 +1,60 @@
+html, body, table {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+  body {
+    /* margin: 5px; */
+    font: 20px Arial italic;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* table, td, tr {
+    border: 1px solid red;
+} */
+.header {
+    background-color: orange;
+    text-align: center;
+}
+.footer {
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+}
+.check {
+    background-color: darkorange;
+}
+.fon {
+    width: 21%;
+}
+.menu {
+    text-align: center;
+}
+.content {
+    background-color: white;
+    opacity: 0.8;
+}
+.content p {
+    text-indent: 1.5em;
+    padding: 0.3em;
+}
+img {
+    height: 210px;
+    width: auto;
+    border-radius: 3%;
+    margin-left: 20%;
+}
+.imgcenter{
+    height: 320px;
+    width: auto;
+    border-radius: 0%;
+    margin-left: 26%;
+}
+.textcenter{
+    text-align: center;
+}
